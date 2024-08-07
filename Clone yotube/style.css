@@ -1,0 +1,76 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.sidebar button {
+    padding: 5px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#logo-yotube {
+    color: red;
+}
+
+.youtube-controls {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.subscriptions {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.recomendaciones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.video {
+    flex: 1 1 calc(33.333% - 10px); 
+    box-sizing: border-box;
+    height: 250px;
+    margin: 0;
+}
+
+.video img {
+    width: 100%;
+    border-radius: 2px;
+}
+.video label{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.video p{
+    color: grey;
+    font-size: 20px;
+
+}
+
+.channel img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#mincal{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.channel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
